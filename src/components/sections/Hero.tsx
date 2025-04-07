@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../shared/Container";
 import Paragraph from "../shared/Paragraph";
 import Button from "../shared/Button";
+import Numbers from "./Numbers";
 
 const Hero = () => {
   return (
@@ -57,7 +58,7 @@ const Hero = () => {
                 </span>
                     <input type="email" placeholder="johndoe@gmail.com" className="w-full py-3 outline-none bg-transparent" />
                   <Button className="min-w-max text-white">
-                    <span className="hidden sm:flex relative z-[5]">Get Started</span>
+                    <span className="relative z-[5]">Get Started</span>
                   </Button>             
               </form>
             </div>
@@ -69,6 +70,7 @@ const Hero = () => {
           <img src="https://images.pexels.com/photos/4389794/pexels-photo-4389794.jpeg" alt="Hero Image" width={2350} height={2359} className="lg:absolute w-full h-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96" />
         </div>
       </Container>
+      <Numbers />
     </section>
   );
 };
