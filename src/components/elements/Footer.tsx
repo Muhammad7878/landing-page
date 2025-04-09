@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../shared/Container";
 import { useThemeStore } from "../../store/ThemeStore";
 import logoLight from "../../assets/logo-for-light.png";

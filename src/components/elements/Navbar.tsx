@@ -2,7 +2,6 @@ import Container from "../shared/Container";
 import logoLight from "../../assets/logo-for-light.png";
 import logoDark from "../../assets/logo-for-dark.png";
 import NavItem from "../shared/NavItem";
-import { useEffect } from "react";
 import { useThemeStore } from "../../store/ThemeStore";
 import BtnLink from "../shared/BtnLink";
 export const navItems = [
