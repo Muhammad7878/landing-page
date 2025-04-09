@@ -1,7 +1,7 @@
 import Container from "../shared/Container";
 import { useThemeStore } from "../../store/ThemeStore";
-import logoLight from "../../assets/logo-for-light.png";
-import logoDark from "../../assets/logo-for-dark.png";
+import logoLight from "/assets/logo-for-light.png";
+import logoDark from "/assets/logo-for-dark.png";
 import { navItems } from "./Navbar";
 import NavItem from "../shared/NavItem";
 

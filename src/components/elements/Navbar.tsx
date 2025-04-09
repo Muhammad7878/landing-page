@@ -1,6 +1,6 @@
 import Container from "../shared/Container";
-import logoLight from "../../assets/logo-for-light.png";
-import logoDark from "../../assets/logo-for-dark.png";
+import logoLight from "/assets/logo-for-light.png";
+import logoDark from "/assets/logo-for-dark.png";
 import NavItem from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore";
 import BtnLink from "../shared/BtnLink";
