@@ -16,7 +16,7 @@ const Brands = () => {
       {" "}
       <Container className="space-y-8">
         <div className="text-center max-w-3xl mx-auto">
-          <Title>Trusted my Industry Leaders</Title>
+          <Title>Trusted by Industry Leaders</Title>
         </div>
         <div className="flex justify-center flex-wrap gap-4">
             {logos.map((logo,key)=>(
